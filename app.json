@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Gestao Luminarias",
+    "slug": "gestao-luminarias-publicas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "experiments": {
+      "reactCompiler": true,
+      "baseUrl": "/projeto-apolo"
+    },
+    "splash": {
+      "backgroundColor": "#f7f9fb"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Usamos sua localização para cadastrar a posição do poste.",
+        "NSCameraUsageDescription": "Usamos a câmera para registrar fotos de postes e luminárias.",
+        "NSPhotoLibraryUsageDescription": "Usamos a galeria para anexar fotos ao cadastro."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    }
+  }
+}

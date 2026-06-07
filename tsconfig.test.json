@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": ".test-build",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "types": ["node"],
+    "noEmit": false
+  },
+  "include": [
+    "src/data/mockPostes.ts",
+    "src/services/**/*.ts",
+    "src/types/**/*.ts",
+    "src/utils/assetMaintenance.ts",
+    "src/utils/assetMetrics.ts",
+    "src/utils/domainValidation.ts",
+    "src/utils/localBackup.ts",
+    "src/utils/maintenanceFromOrder.ts",
+    "src/utils/reportCsv.ts",
+    "tests/**/*.ts"
+  ]
+}
